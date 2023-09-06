@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #0c1013;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+}
+/* <!-- nav section */
+
+.logo a img:hover {
+  transform: scale(1.3);
+}
+.header-area{
+  background-color:  rgba(194, 132, 40, 1);
+}
+.navbar-nav li {
+  margin-left: 42px;
+}
+.navbar-nav li a {
+  color: #29e9bc;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+.navbar-nav li a:hover {
+  color: white;
+}
+
+/* banner section */
+.banner-area {
+  background: url("../img/Baneer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-title h1 {
+  font-size: 60px;
+}
+.banner-title p {
+  font-size: 14px;
+}
+.banner-area button:hover,
+.menu-btn button:hover {
+  color: rgba(194, 132, 40, 1);
+  transform: scale(1.2);
+}
+
+/* Menu Section */
+.menu-item:hover {
+  transform: scale(1.5);
+}
+
+/* <!-- Messags Section --> */
+.massge-area {
+  background: #f1dab9;
+}
+.mssg-left {
+  background: url("../img/Msg-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.massge-card,
+.mssg-right {
+  width: 452px;
+  height: 516px;
+}
+.mssg-icon img {
+  width: 30px;
+  margin: 0 10px;
+}
+.mssg-icon {
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+}
+form input {
+  width: 85%;
+  height: 42px;
+  background-color: rgba(217, 217, 217, 1);
+  outline: none;
+  border: none;
+  padding-left: 17px;
+  margin-bottom: 11px;
+}
+.msg {
+  height: 86px;
+  width: 85%;
+  outline: none;
+  border: none;
+  background-color: rgba(217, 217, 217, 1);
+  padding-left: 17px;
+}
+.form-btn button {
+  width: 85%;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid rgba(194, 132, 40, 1);
+}
+.form-btn button:hover {
+  background-color: black;
+}
+/* customers section */
+.customer-heading h2 {
+  font-size: 30px;
+}
+
+.card img {
+  width: 120px;
+}
+.card {
+  background: transparent;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card:hover {
+  background-color: #29e9bc;
+  transform: rotate(2deg);
+}
+/* Fotter Sectioin */
+.social-icon i{
+  font-size: 40px;
+  margin: 0 20px;
+}
+.social-icon i:hover{
+  color: rgba(194, 132, 40, 1);
+}
+
+
