@@ -63,10 +63,8 @@ body {
 }
 
 /* <!-- Messags Section --> */
-.massge-area {
-  background: #f1dab9;
-}
-.mssg-left {
+
+.mssg-left img{
   background: url("../img/Msg-img.png");
   background-repeat: no-repeat;
   background-position: center;
